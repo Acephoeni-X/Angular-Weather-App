@@ -7,10 +7,10 @@
 }
 h1{
     font-size: 200%;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 form {
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .input{
@@ -24,7 +24,7 @@ form {
 
 .cityName{
     font-size: 1.5rem;
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
 .div1{
@@ -44,6 +44,7 @@ form {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    max-width: 40rem;
 }
 .boxes{
     padding: 0.5em;
@@ -54,4 +55,13 @@ form {
     align-items: center;
     justify-content: space-evenly;
     margin: 1.3rem;
+}
+
+@media only screen and ( max-width: 800px){
+    h1{
+        font-size: 150%;
+    }
+    .input{
+        width: 15rem;
+    }
 }

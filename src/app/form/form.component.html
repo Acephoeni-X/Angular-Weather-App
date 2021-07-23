@@ -4,20 +4,20 @@
     <form (ngSubmit)='checkCity()'>
         <input type="text" [(ngModel)] = 'city' [ngModelOptions]="{standalone: true}" class="input" placeholder="Enter the Destination">
     </form>
-    <p class="cityName">City Name: {{city}}</p>
+    <p class="cityName">City Name: {{city | uppercase}}</p>
     <div class="div1">
             <div>
                 <span class = "box">
-                    <p class='boxes'><i class="fa fa-temperature-high"></i>Feels Like:<br>{{feelsLike}}</p>
-                    <p class='boxes'><i class="fa fa-tint"></i>Humidity:<br>{{humidity}}</p>
-                    <p class='boxes'><i class="fa fa-wind"></i>Wind:<br>{{wind}}</p>
-                    <p class='boxes'><i class="fa fa-sun"></i>Sunrise:<br>{{sunrise}}</p>
-                    <p class='boxes'><i class="fa fa-moon"></i>Sunset:<br>{{sunset}}</p>
-                    <p class='boxes'><i class="fa fa-fan"></i>Barometer:<br>{{barometer}}</p>
+                    <p class='boxes'><i class="fa fa-temperature-high"></i>Feels Like:<br><p style="text-align: center;"></p>{{feelsLike}}</p>
+                    <p class='boxes'><i class="fa fa-tint"></i>Humidity:<br><p style="text-align: center;">{{humidity}}</p></p>
+                    <p class='boxes'><i class="fa fa-wind"></i>Wind:<br><p style="text-align: center;">{{wind}}</p></p>
+                    <p class='boxes'><i class="fa fa-sun"></i>Sunrise:<br><p style="text-align: center;">{{sunrise}}</p></p>
+                    <p class='boxes'><i class="fa fa-moon"></i>Sunset:<br><p style="text-align: center;">{{sunset}}</p></p>
+                    <p class='boxes'><i class="fa fa-fan"></i>Barometer:<br><p style="text-align: center;">{{barometer}}</p></p>
                 </span>
                 <span>
                     <img src="" alt="">
-                    <p style="font-size: 1.2rem; text-align: center;">Description: {{description}}</p>
+                    <p style="font-size: 1.2rem; text-align: center; margin-top: 5rem;">Description: {{description | uppercase}}</p>
                 </span>
             </div>
     </div>
