@@ -4,10 +4,115 @@
     align-items: center;
     justify-content: center;
     color: white;
+    background-image: url('https://i.pinimg.com/originals/ab/b1/8b/abb18b3ff9da8c65e6936f27476f7603.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.few-clouds{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('https://i.pinimg.com/originals/bc/ff/5b/bcff5be84984b38578d472b33e9a66b7.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.scattered-clouds{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('https://i.pinimg.com/originals/bc/ff/5b/bcff5be84984b38578d472b33e9a66b7.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.broken-clouds{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('https://i.pinimg.com/originals/64/8f/0f/648f0f2dad03c3a0adbbda57c7df7e60.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shower-rain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('https://i0.wp.com/www.gardendiary.info/wp-content/uploads/2015/09/rain-animation779.gif?resize=575%2C301&ssl=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('https://i.pinimg.com/originals/1d/07/bc/1d07bc543b5848be59f821d8889c1091.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thunderstorm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('https://i.pinimg.com/originals/dd/f1/48/ddf1482dcd4dc5fc267cfa0a6c0cd720.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.snow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('https://64.media.tumblr.com/c5473bf66524bb7a55eab6eb42217203/tumblr_nq01giusiZ1t19jpho1_500.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('https://c.tenor.com/5ImWLS5QAJgAAAAC/foggy-fog.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.haze{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(242, 41, 41);
+    background-image: url('https://thumbs.gfycat.com/DeliciousUnfortunateCockroach-size_restricted.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sky{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('https://i.gifer.com/XFbw.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 h1{
     font-size: 200%;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 form {
     margin-top: 5rem;
@@ -24,11 +129,11 @@ form {
 
 .cityName{
     font-size: 1.5rem;
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
 
 .div1{
-    margin: 1.5rem;
+    /* margin: 1.5rem; */
     padding: 1rem;
     display: flex;
     flex-direction: column;

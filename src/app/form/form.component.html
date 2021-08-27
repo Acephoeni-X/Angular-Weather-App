@@ -1,5 +1,17 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-<div class="body">
+<div [ngClass]="{'body': description==='',
+                'sky': description.toUpperCase().includes('SKY'),
+                'few-clouds': description.toUpperCase().includes('CLOUDS'),
+                'scattered-clouds': description.toUpperCase().includes('SCATTERED-CLOUDS'),
+                'broken-clouds ': description.toUpperCase().includes('BROKEN-CLOUDS'),
+                'shower-rain': description.toUpperCase().includes('SHOWER-RAIN'),
+                'rain': description.toUpperCase().includes('RAIN'),
+                'thunderstorm': description.toUpperCase().includes('THUNDERSTORM'),
+                'snow': description.toUpperCase().includes('SNOW'),
+                'mist': description.toUpperCase().includes('MIST'),
+                'haze': description.toUpperCase().includes('HAZE')
+                }"
+                >
     <h1>Check Weather Before Travelling To A Beautiful Place</h1>
     <form (ngSubmit)='checkCity()'>
         <input type="text" [(ngModel)] = 'city' [ngModelOptions]="{standalone: true}" class="input" placeholder="Enter the Destination">
@@ -17,7 +29,7 @@
                 </span>
                 <span>
                     <img src="" alt="">
-                    <p style="font-size: 1.2rem; text-align: center; margin-top: 5rem;">Description: {{description | uppercase}}</p>
+                    <p style="font-size: 1.2rem; text-align: center; margin-top: 2.1rem;">Description: {{description | uppercase}}</p>
                 </span>
             </div>
     </div>
